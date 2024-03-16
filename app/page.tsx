@@ -11,7 +11,7 @@ import OliveOilSection from "@/components/olive-oil/olive-oil-section";
 
 export default function Home() {
   return (
-    <main className="min-h-screen text-textMuted pt-12">
+    <main className="min-h-screen text-textMuted pt-20">
       <Hero />
       <CompaniesList companies={companies} />
       <AboutSection />
@@ -32,7 +32,7 @@ function Hero() {
     <section className=" bg-noise h-full w-full bg-red-400 relative isolate">
       <Image
         src="/Black_Olive_Bottle_Mockup.png"
-        className=" absolute -z-[1] inset-0"
+        className=" absolute -z-[1] inset-0 object-cover"
         fill
         alt="hero-image"
       />

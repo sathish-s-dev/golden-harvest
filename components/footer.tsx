@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark/10 backdrop-blur-lg text-white w-full bg-noise">
-      <div className="max-w-7xl w-full mx-auto py-12 space-y-6">
+    <footer className="bg-black backdrop-blur-lg text-white w-full">
+      <div className="max-w-7xl w-full mx-auto pt-24 pb-12 space-y-10 divide-y-2 divide-dark/50">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 place-items-center">
           <div className="flex flex-col gap-4 col-span-2 self-start">
             <p className="font-noto text-lg">
@@ -66,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <p className="text-center text-xs text-textMuted">
+        <p className="text-center text-xs text-textMuted pt-10">
           Copyright © 2022. All rights reserved.
         </p>
       </div>
