@@ -1,13 +1,13 @@
 import React from "react";
-import BodyText from "../body-text";
-import Button from "../button";
-import SectionHeading from "../section-heading";
-import { TextSection } from "../text-section";
+import BodyText from "../ui/body-text";
+import Button from "../ui/button";
+import SectionHeading from "../ui/section-heading";
+import { TextSection } from "../ui/text-section";
 import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <section className="grid place-content-center grid-cols-2 py-24 relative bg-noise">
+    <section className="grid place-content-center md:grid-cols-2 py-24 relative bg-noise px-6">
       <Image
         src="/images/rock-olive.png"
         width={400}
@@ -27,7 +27,13 @@ const AboutSection = () => {
           by."
         buttonText="Read more"
       />
-      <Image className="absolute right-20 bottom-0" src={"/images/olive-pot.png"} width={300} height={300} alt="olive-pot" />
+      <Image
+        className="absolute right-4 md:right-20 bottom-0 w-48 h-48 md:w-60 md:h-60"
+        src={"/images/olive-pot.png"}
+        width={300}
+        height={300}
+        alt="olive-pot"
+      />
     </section>
   );
 };

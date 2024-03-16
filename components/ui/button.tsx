@@ -19,7 +19,7 @@ const Button = ({ children, variant, ...restProps }: ButtonProps) => {
 export default Button;
 
 const buttonVariants = cva(
-  "px-5 uppercase text-xs font-semibold hover:scale-105 transition-all py-3 rounded-sm",
+  "px-5 uppercase text-xs font-semibold hover:scale-105 transition-all py-3 rounded-lg",
   {
     variants: {
       variant: {

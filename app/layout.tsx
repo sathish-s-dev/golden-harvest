@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Serif_KR } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.className} ${noto.variable}`}>
-      <body className={"bg-noise"}>{children}</body>
+      <body className={"bg-noise scrollbar"}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

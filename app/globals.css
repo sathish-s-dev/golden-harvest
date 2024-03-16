@@ -16,7 +16,6 @@
   }
 }
 
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -24,16 +23,26 @@
   .bg-noise {
     background: url("/noise.png") right center/cover no-repeat;
   }
-  .left-clip{
+  .left-clip {
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
     /* clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%); */
   }
-  .input-clip{
+  .input-clip {
     clip-path: polygon(0 0, 100% 0, 93% 100%, 0% 100%);
     /* clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%); */
   }
-  .right-clip{
+  .right-clip {
     /* clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%); */
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .scrollbar::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .scrollbar {
+    -ms-overflow-style: none;
   }
 }
