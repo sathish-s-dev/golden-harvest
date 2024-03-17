@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-black backdrop-blur-lg text-white w-full">
       <div className="max-w-7xl w-full mx-auto pt-24 pb-12 space-y-10 divide-y-2 divide-dark/50">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8 place-items-center">
-          <div className="flex flex-col gap-4 col-span-2 self-start">
+          <div className="flex flex-col gap-4 md:col-span-2 self-start">
             <p className="font-noto text-lg">
               Golden <span className="text-accent">Harvest</span>
             </p>

@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.className} ${noto.variable}`}>
-      <body className={"bg-noise scrollbar"}>
+      <body className={"scrollbar bg-dark"}>
         <Header />
         {children}
         <Footer />
