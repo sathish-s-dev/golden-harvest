@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const OurProgressSection = () => {
   return (
-    <section className="bg-noise px-6">
+    <section id="our-progress" className="bg-noise px-6">
       <div className="bg-dark p-16 rounded-3xl relative  text-center max-w-6xl mx-auto">
         <Image
           className="md:w-64 w-48 mx-auto absolute md:-right-10 md:-top-32 right-0 -top-24"

@@ -5,7 +5,10 @@ import Mdiv from "@/components/ui/motion-div";
 
 export function Hero() {
   return (
-    <section className=" bg-noise h-full w-full bg-red-400 relative isolate">
+    <section
+      id="hero"
+      className=" bg-noise h-full w-full bg-red-400 relative isolate"
+    >
       <Image
         src="/Black_Olive_Bottle_Mockup.png"
         className=" absolute -z-[1] inset-0 object-cover"

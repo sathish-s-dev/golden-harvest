@@ -45,4 +45,22 @@
   .scrollbar {
     -ms-overflow-style: none;
   }
+  html,
+  body,
+  * {
+    scroll-behavior: smooth;
+  }
+  
+  .active{
+    @apply text-accent;
+    display: block;
+
+    &::after{
+      content: "";
+      width: 100%;
+      display: block;
+      background: rgb(99 177 80);
+      height: 2px;
+    }
+  }
 }

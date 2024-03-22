@@ -25,7 +25,6 @@ function Company({ name, image }: { name: string; image: string }) {
   return <Image src={image} width={100} height={50} alt={name} className="" />;
 }
 
-
 function CompaniesList({ companies }: { companies: Company[] }) {
   return (
     <section className="bg-noise py-24">

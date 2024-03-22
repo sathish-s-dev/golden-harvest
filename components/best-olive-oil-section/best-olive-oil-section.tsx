@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const BestOliveOilSection = () => {
   return (
-    <section className="bg-noise">
+    <section id="shop" className="bg-noise">
       <div className="grid px-6 grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto place-items-center py-24 pt-36 gap-y-12">
         <div className="w-full max-w-sm relative">
           <Image

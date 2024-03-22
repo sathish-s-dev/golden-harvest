@@ -4,7 +4,7 @@ import SectionHeading from "../ui/section-heading";
 
 const OliveOilSection = () => {
   return (
-    <section className="bg-noise">
+    <section id="benefits" className="bg-noise">
       <div className="max-w-7xl mx-auto py-24 relative">
         <SectionHeading className="text-center relative z-10 max-w-sm mx-auto">
           An Olive Oil that helps you live
